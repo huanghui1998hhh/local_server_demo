@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-test_wave/Pods-test_wave-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/HTTPParserC/HTTPParserC.framework
+${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework
+${BUILT_PRODUCTS_DIR}/Telegraph/Telegraph.framework

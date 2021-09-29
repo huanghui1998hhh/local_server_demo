@@ -1,0 +1,28 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - HTTPParserC (2.9.4)
+  - Kanna (5.2.7)
+  - Telegraph (0.29):
+    - CocoaAsyncSocket (~> 7.6)
+    - HTTPParserC (~> 2.9)
+
+DEPENDENCIES:
+  - Kanna (~> 5.2.2)
+  - Telegraph
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - HTTPParserC
+    - Kanna
+    - Telegraph
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  HTTPParserC: aea14c3d2d4ac5beb3988781daa36dfa62e0d9ef
+  Kanna: 01cfbddc127f5ff0963692f285fcbc8a9d62d234
+  Telegraph: 0cae12d0c9efa5a33de08286c8a71d4c4d16a70c
+
+PODFILE CHECKSUM: 0c066a3b8f7ce961714e3da4a70d5796fc66039c
+
+COCOAPODS: 1.10.1

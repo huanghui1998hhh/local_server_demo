@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282D08CB2702C1A500E1209E /* mobileconfig.html in Sources */ = {isa = PBXBuildFile; fileRef = 282D08CA2702C1A500E1209E /* mobileconfig.html */; };
+		282D08CD2702C66E00E1209E /* mobileconfig.html in Resources */ = {isa = PBXBuildFile; fileRef = 282D08CA2702C1A500E1209E /* mobileconfig.html */; };
+		288B23FA26D743CA00996CB5 /* test_waveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B23F926D743CA00996CB5 /* test_waveApp.swift */; };
+		288B23FC26D743CA00996CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B23FB26D743CA00996CB5 /* ContentView.swift */; };
+		288B23FE26D743D100996CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288B23FD26D743D100996CB5 /* Assets.xcassets */; };
+		288B240126D743D100996CB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288B240026D743D100996CB5 /* Preview Assets.xcassets */; };
+		28FAA2C526F5AC4800F7F5B4 /* wechat-icons.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = 28FAA2C426F5AC4800F7F5B4 /* wechat-icons.mobileconfig */; };
+		28FAA2C726F5C5CE00F7F5B4 /* icons.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = 28FAA2C626F5C5CE00F7F5B4 /* icons.mobileconfig */; };
+		28FAA2C926F5F5AB00F7F5B4 /* MobileConfigServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FAA2C826F5F5AB00F7F5B4 /* MobileConfigServer.swift */; };
+		F04C6CE23D106A236A1386DA /* Pods_test_wave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D4BBD04F993CE85276504D /* Pods_test_wave.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		282D08CA2702C1A500E1209E /* mobileconfig.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = mobileconfig.html; sourceTree = "<group>"; };
+		288B23F626D743CA00996CB5 /* test_wave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_wave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288B23F926D743CA00996CB5 /* test_waveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_waveApp.swift; sourceTree = "<group>"; };
+		288B23FB26D743CA00996CB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		288B23FD26D743D100996CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		288B240026D743D100996CB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		288B240226D743D100996CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FAA2C426F5AC4800F7F5B4 /* wechat-icons.mobileconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wechat-icons.mobileconfig"; sourceTree = "<group>"; };
+		28FAA2C626F5C5CE00F7F5B4 /* icons.mobileconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icons.mobileconfig; sourceTree = "<group>"; };
+		28FAA2C826F5F5AB00F7F5B4 /* MobileConfigServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileConfigServer.swift; sourceTree = "<group>"; usesTabs = 0; };
+		406F22459C7AC59F2FEFB3F7 /* Pods-test_wave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_wave.debug.xcconfig"; path = "Target Support Files/Pods-test_wave/Pods-test_wave.debug.xcconfig"; sourceTree = "<group>"; };
+		42D4BBD04F993CE85276504D /* Pods_test_wave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_wave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B30568FDC8877FCC855763C /* Pods-test_wave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_wave.release.xcconfig"; path = "Target Support Files/Pods-test_wave/Pods-test_wave.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288B23F326D743CA00996CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04C6CE23D106A236A1386DA /* Pods_test_wave.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0C712007F482C294017E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42D4BBD04F993CE85276504D /* Pods_test_wave.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		282D08CC2702C3E300E1209E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				282D08CA2702C1A500E1209E /* mobileconfig.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		288B23ED26D743CA00996CB5 = {
+			isa = PBXGroup;
+			children = (
+				288B23F826D743CA00996CB5 /* test_wave */,
+				288B23F726D743CA00996CB5 /* Products */,
+				7CACC80BD5359CD77CC39837 /* Pods */,
+				0A0C712007F482C294017E5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		288B23F726D743CA00996CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288B23F626D743CA00996CB5 /* test_wave.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288B23F826D743CA00996CB5 /* test_wave */ = {
+			isa = PBXGroup;
+			children = (
+				282D08CC2702C3E300E1209E /* Resources */,
+				288B23F926D743CA00996CB5 /* test_waveApp.swift */,
+				288B23FB26D743CA00996CB5 /* ContentView.swift */,
+				288B23FD26D743D100996CB5 /* Assets.xcassets */,
+				288B240226D743D100996CB5 /* Info.plist */,
+				28FAA2C426F5AC4800F7F5B4 /* wechat-icons.mobileconfig */,
+				28FAA2C626F5C5CE00F7F5B4 /* icons.mobileconfig */,
+				28FAA2C826F5F5AB00F7F5B4 /* MobileConfigServer.swift */,
+				288B23FF26D743D100996CB5 /* Preview Content */,
+			);
+			path = test_wave;
+			sourceTree = "<group>";
+		};
+		288B23FF26D743D100996CB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				288B240026D743D100996CB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CACC80BD5359CD77CC39837 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				406F22459C7AC59F2FEFB3F7 /* Pods-test_wave.debug.xcconfig */,
+				9B30568FDC8877FCC855763C /* Pods-test_wave.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288B23F526D743CA00996CB5 /* test_wave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288B240526D743D100996CB5 /* Build configuration list for PBXNativeTarget "test_wave" */;
+			buildPhases = (
+				5C7BF977CB1D111C688CE024 /* [CP] Check Pods Manifest.lock */,
+				288B23F226D743CA00996CB5 /* Sources */,
+				288B23F326D743CA00996CB5 /* Frameworks */,
+				288B23F426D743CA00996CB5 /* Resources */,
+				280AA60BECA9CDE48B1BBAD0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_wave;
+			packageProductDependencies = (
+			);
+			productName = test_wave;
+			productReference = 288B23F626D743CA00996CB5 /* test_wave.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		288B23EE26D743CA00996CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					288B23F526D743CA00996CB5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 288B23F126D743CA00996CB5 /* Build configuration list for PBXProject "test_wave" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 288B23ED26D743CA00996CB5;
+			packageReferences = (
+			);
+			productRefGroup = 288B23F726D743CA00996CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288B23F526D743CA00996CB5 /* test_wave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288B23F426D743CA00996CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282D08CD2702C66E00E1209E /* mobileconfig.html in Resources */,
+				288B240126D743D100996CB5 /* Preview Assets.xcassets in Resources */,
+				28FAA2C526F5AC4800F7F5B4 /* wechat-icons.mobileconfig in Resources */,
+				28FAA2C726F5C5CE00F7F5B4 /* icons.mobileconfig in Resources */,
+				288B23FE26D743D100996CB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		280AA60BECA9CDE48B1BBAD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_wave/Pods-test_wave-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_wave/Pods-test_wave-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test_wave/Pods-test_wave-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C7BF977CB1D111C688CE024 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test_wave-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288B23F226D743CA00996CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288B23FC26D743CA00996CB5 /* ContentView.swift in Sources */,
+				282D08CB2702C1A500E1209E /* mobileconfig.html in Sources */,
+				288B23FA26D743CA00996CB5 /* test_waveApp.swift in Sources */,
+				28FAA2C926F5F5AB00F7F5B4 /* MobileConfigServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		288B240326D743D100996CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		288B240426D743D100996CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288B240626D743D100996CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406F22459C7AC59F2FEFB3F7 /* Pods-test_wave.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"test_wave/Preview Content\"";
+				DEVELOPMENT_TEAM = U25PGE65Q8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = test_wave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.todomato.test-wave";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		288B240726D743D100996CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B30568FDC8877FCC855763C /* Pods-test_wave.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"test_wave/Preview Content\"";
+				DEVELOPMENT_TEAM = U25PGE65Q8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = test_wave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.todomato.test-wave";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288B23F126D743CA00996CB5 /* Build configuration list for PBXProject "test_wave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288B240326D743D100996CB5 /* Debug */,
+				288B240426D743D100996CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288B240526D743D100996CB5 /* Build configuration list for PBXNativeTarget "test_wave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288B240626D743D100996CB5 /* Debug */,
+				288B240726D743D100996CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 288B23EE26D743CA00996CB5 /* Project object */;
+}

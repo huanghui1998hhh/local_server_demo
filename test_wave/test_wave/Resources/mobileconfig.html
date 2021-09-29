@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <style>
+        * {
+            margin: 0rem;
+            padding: 0rem;
+        }
+        
+        button-container {
+            position: relative;
+            height: 100%;
+        }
+        
+        button {
+            background: rgba(104, 189, 38, 1);
+            width: 90%;
+            height: 1rem;
+            border: none;
+            border-radius: 0.5rem;
+            color: white;
+            text-align: center;
+            font-size: 0.4rem;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translate(5%, -50%);
+        }
+    </style>
+    <script>
+        function pop() {
+            window.location.href = "testWave://";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="button-container">
+        <button class="button" onclick="pop()">Continue</button>
+    </div>
+
+    <script>
+        (function() { //解决不同手机dpr不一致的适配问题(解决了1px的问题)
+            var scale = 1.0;
+            if (window.devicePixelRatio === 2) {
+                scale *= 0.5;
+            }
+            if (window.devicePixelRatio === 3) {
+                scale *= 0.333333;
+            }
+            var meta = document.createElement('meta');
+            meta.setAttribute('name', 'viewport');
+            meta.setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
+            document.head.appendChild(meta);
+        })();
+        (function(doc, win) { //解决不同手机分辨率不一致的适配问题
+            var docEl = "";
+            docEl = doc.documentElement, resizeEvt = "orientationchange" in window ? "orientationchange" : "resize", recalc = function() {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) {
+                    return
+                } else {
+                    if (clientWidth > 1280) {
+                        docEl.style.fontSize = 170.66 + "px"
+                    } else {
+                        if (clientWidth < 640) {
+                            docEl.style.fontSize = 85.33 + "px"
+                        } else {
+                            if (clientWidth <= 1280 || clientWidth >= 640) {
+                                docEl.style.fontSize = (clientWidth / 750) * 100 + "px"
+                            }
+                        }
+                    }
+                }
+            };
+            if (!doc.addEventListener) {
+                return
+            }
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener("DOMContentLoaded", recalc, false)
+        })(document, window);
+
+        var src = 'http://localhost:9000/download';
+        var iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = "javascript: '<script>location.href=\"" + src + "\"<\/script>'";
+        document.getElementsByTagName('body')[0].appendChild(iframe);
+    </script>
+</body>
+
+</html>
